@@ -144,8 +144,7 @@ nav ul li:first-child h2:hover {
   position: absolute;
   bottom: 0;
 
-  width: 100%;
-  height: 5.5rem;  
+  width: 100%; 
   background-color: #222;          /* Footer height */
 }
 
