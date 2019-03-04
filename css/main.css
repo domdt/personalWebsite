@@ -170,3 +170,10 @@ nav ul li:first-child h2:hover {
 section{
   padding: 0px 30px;
 }
+
+.hero-text {
+  font-size: 2em;
+  text-align: center;
+
+  color: white;
+}
