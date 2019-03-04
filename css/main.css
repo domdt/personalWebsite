@@ -12,6 +12,7 @@ body {
   font-size: 15px;
   background-color: DarkGrey;
   overflow: hidden;
+  font-family: Montserrat;
 }
 
 nav {
@@ -165,4 +166,8 @@ nav ul li:first-child h2:hover {
 
 .footerIcon a:hover {
   color: #FF0080;
+}
+
+section{
+  padding: 0px 30px;
 }
