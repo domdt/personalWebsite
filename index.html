@@ -3,7 +3,7 @@
 	<head>
 		<title>Dominic Davies-Tagg (Developer)</title>
 		<meta   name="Description"   content="Portfolio of an East-Midlands based Developer">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
 		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 		<link href='css/main.css' rel='stylesheet'>
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -12,7 +12,7 @@
 <div id="page-container">
 	<div id="content-wrap">
 	<header>
-		<div  class="topnav" id="myTopnav">
+		<div  class="navBar" id="navContainer">
 		<nav>
 			<ul>
 				<li><h2>&lt;Dominic Davies-Tagg&gt;</h2></li>
@@ -21,7 +21,7 @@
 				<li><a href="/contact.html">CONTACT</a></li>
 				<li><a href="/projects.html">PROJECTS</a></li>
 				<li><a href="/personal_projects.html">PERSONAL PROJECTS</a></li>
-				<li><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+				<li><a href="javascript:void(0);" class="icon" onclick="menuFunction()">&#9776;</a>
 			</ul>
 		</nav>
 	</div>
@@ -46,12 +46,12 @@
 	</div>
 </div>
 <script>
-	function myFunction() {
-	  var x = document.getElementById("myTopnav");
-	  if (x.className === "topnav") {
+	function menuFunction() {
+	  var x = document.getElementById("navContainer");
+	  if (x.className === "navBar") {
 	    x.className += " responsive";
 	  } else {
-	    x.className = "topnav";
+	    x.className = "navBar";
 	  }
 	}
 </script>

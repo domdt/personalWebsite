@@ -85,9 +85,9 @@ nav ul li:first-child h2:hover {
     display: block;
   }
 
-  .topnav.responsive nav ul li:not(:last-child) {display: block;}
+  .navBar.responsive nav ul li:not(:last-child) {display: block;}
 
-  .topnav.responsive nav ul li:last-child {display: none;}
+  .navBar.responsive nav ul li:last-child {display: none;}
 
   .tonav.responsive nav ul li  {
     display: block;
@@ -115,7 +115,9 @@ nav ul li:first-child h2:hover {
 }
 
 @media screen and (max-width: 800px) {
-  .topnav nav ul li:not(:last-child) {display: none;}
+  .navBar nav ul li{display: none;}
+  .navBar nav ul li:first-child{display: block;}
+  .navBar nav ul li:last-child{display: block;}
   .icon {
     display: block;
   }
@@ -149,9 +151,7 @@ nav ul li:first-child h2:hover {
 
 .copyright ul {
 	list-style: none;
-	 width: 100%;
-  
-     text-align: center;
+  text-align: center;
 }
 
 .copyright ul li {
