@@ -9,10 +9,15 @@
 body {
   margin: 0;
   padding: 0;
-  font-size: 15px;
+  font-size: 1em;
   background-color: #515151;
   font-family: Montserrat;
-	color: white;
+  color: white;
+  text-align: justify;
+}
+
+section{
+  padding: 0em 20%;
 }
 
 nav {
@@ -130,12 +135,17 @@ nav ul li:first-child h2:hover {
   .icon {
     display: block;
   }
+
+  section{
+    padding: 0em 5%;
+  }
+
 }
 
 
 .constructionBar {
 	    text-align: center;
-		background-color: orange;
+		  background-color: orange;
 	    padding: 0.2em 0.2em;
 	    font-size: 15px;
 }
@@ -174,10 +184,6 @@ nav ul li:first-child h2:hover {
 
 .footerIcon a:hover {
   color: #FF0080;
-}
-
-section{
-  padding: 0px 30px;
 }
 
 .hero-text {
