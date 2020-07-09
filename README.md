@@ -1,4 +1,4 @@
-# personalWebsite
+# Personal Website
 Personal Website for Delivering Professional Portfolio
 
 A simple no frills website using HTML5 and CSS.
